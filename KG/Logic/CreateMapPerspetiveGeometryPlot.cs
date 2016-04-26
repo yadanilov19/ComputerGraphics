@@ -14,7 +14,6 @@ namespace Logic
         static int n = 4; //размерность матриц
         public static List<Points.Point2D> CentralProjection(double H, double W, Point4D C, List<Points.Point4D> Points)
         {
-
             List<Point2D> result;
             CheckC(C);
             Calculate(H,W, C,Points, CreateRz(C) * CreateRx(C) * CreateMx() * CreateCz(C) * CreatePz() * CreateT(H,W), out result);
