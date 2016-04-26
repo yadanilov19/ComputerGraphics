@@ -12,3 +12,10 @@ C:\Users\user\Google Диск\KG (1)\Logic\bin\Debug\MathNet.Numerics.xml
 C:\Users\user\Google Диск\KG (1)\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 C:\Users\user\Google Диск\KG (1)\Logic\obj\Debug\Logic.dll
 C:\Users\user\Google Диск\KG (1)\Logic\obj\Debug\Logic.pdb
+C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\Logic.dll
+C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\Logic.pdb
+C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\MathNet.Numerics.dll
+C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\MathNet.Numerics.xml
+C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.dll
+C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.pdb
