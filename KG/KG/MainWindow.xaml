@@ -1,0 +1,73 @@
+﻿<Window x:Class="KG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KG"
+        xmlns:Plot="clr-namespace:Plot;assembly=PerspectiveGeometryPlot"
+        mc:Ignorable="d"
+        Title="Лабораторная работа №2 Данилов С.О. МО-304" Height="746" Width="800"
+        x:Name="Window" Loaded="WindowLoaded" SizeChanged="valueChanged"
+        Icon="/Resourses/icon.ico"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="395*"/>
+            <ColumnDefinition Width="397*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="423*"/>
+            <RowDefinition Height="292*"/>
+        </Grid.RowDefinitions>
+        <Plot:Plot Grid.Column="0" x:Name="ComplexPlot" Margin="15" ></Plot:Plot>
+        <Plot:Plot Grid.Column="1" x:Name="PerspectivePlot" Margin="15" ></Plot:Plot>
+        <GroupBox x:Name="groupBox" Header="Управление" Grid.Row="1" Margin="10,10,10,21" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.AppWorkspaceBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.ColumnSpan="2">
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="229*"/>
+                    <ColumnDefinition Width="151*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <GroupBox x:Name="groupBox1" Header="Координаты" Margin="1,1,1,17">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <local:_Slider x:Name="X"  Minimum="0" Maximum="150" Label="X = " Grid.Row="0" CurrentValue="10" valueChanged="valueChanged" />
+                        <local:_Slider x:Name="_Y"  Minimum="0" Maximum="150" Label="Y = " Grid.Row="1" CurrentValue="20" valueChanged="valueChanged"/>
+                        <local:_Slider x:Name="_Z"  Minimum="0" Maximum="150" Label="Z = " Grid.Row="2" CurrentValue="40" valueChanged="valueChanged"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="groupBox2" Header="Настройки" Margin="10,1,1,40" Grid.Column="1">
+                    <Grid Margin="3">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <GroupBox x:Name="groupBox3" Header="Точка" Grid.Row="0">
+                            <Grid>
+
+                                <RadioButton x:Name="T" Content="T" HorizontalAlignment="Left" Height="15" Margin="10,10,0,0" VerticalAlignment="Top" Width="92" IsChecked="True" Checked="T_Checked"/>
+                                <RadioButton x:Name="C" Content="C" HorizontalAlignment="Left" Height="15" Margin="10,30,0,0" VerticalAlignment="Top" Width="105" Checked="C_Checked"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox x:Name="groupBox4" Header="Проецирование" Grid.Row="1">
+                            <Grid>
+                                <RadioButton x:Name="Centr" Content="Центральное" HorizontalAlignment="Left" Height="15" Margin="10,28,0,0" VerticalAlignment="Top" Width="92" Checked="Centr_Checked" Unchecked="Centr_Unchecked"/>
+                                <RadioButton x:Name="Ortg" Content="Ортогональное" HorizontalAlignment="Left" Height="15" Margin="140,28,0,0" VerticalAlignment="Top" Width="107" IsChecked="True"/>
+                            </Grid>
+                        </GroupBox>
+
+
+                    </Grid>
+                </GroupBox>
+                <Button x:Name="Exit" Content="Выход" Grid.Column="1" Margin="0,0,10,10" Click="Exit_Click" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

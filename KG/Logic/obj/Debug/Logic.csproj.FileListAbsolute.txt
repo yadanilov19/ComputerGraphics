@@ -1,0 +1,14 @@
+c:\Users\1\documents\visual studio 2015\Projects\KG\Logic\bin\Debug\Logic.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\Logic\bin\Debug\Logic.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+c:\Users\1\documents\visual studio 2015\Projects\KG\Logic\obj\Debug\Logic.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\Logic\obj\Debug\Logic.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\Logic\bin\Debug\MathNet.Numerics.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\Logic\bin\Debug\MathNet.Numerics.xml
+C:\Users\user\Google Диск\KG (1)\Logic\bin\Debug\Logic.dll
+C:\Users\user\Google Диск\KG (1)\Logic\bin\Debug\Logic.pdb
+C:\Users\user\Google Диск\KG (1)\Logic\bin\Debug\MathNet.Numerics.dll
+C:\Users\user\Google Диск\KG (1)\Logic\bin\Debug\MathNet.Numerics.xml
+C:\Users\user\Google Диск\KG (1)\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\user\Google Диск\KG (1)\Logic\obj\Debug\Logic.dll
+C:\Users\user\Google Диск\KG (1)\Logic\obj\Debug\Logic.pdb

@@ -1,0 +1,16 @@
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.csprojResolveAssemblyReference.cache
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.g.cs
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot_MarkupCompile.cache
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot_MarkupCompile.lref
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\bin\Debug\ComplexPlot.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\bin\Debug\ComplexPlot.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.baml
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.g.resources
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.Properties.Resources.resources
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.csproj.GenerateResource.Cache
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\obj\Debug\ComplexPlot.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\bin\Debug\Logic.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\bin\Debug\Logic.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\bin\Debug\MathNet.Numerics.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\ComplexPlot\bin\Debug\MathNet.Numerics.xml

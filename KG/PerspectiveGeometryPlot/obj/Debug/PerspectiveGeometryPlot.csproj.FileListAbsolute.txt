@@ -1,0 +1,16 @@
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.csprojResolveAssemblyReference.cache
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.g.cs
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot_MarkupCompile.cache
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot_MarkupCompile.lref
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\bin\Debug\PerspectiveGeometryPlot.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\bin\Debug\PerspectiveGeometryPlot.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.baml
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.g.resources
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.Properties.Resources.resources
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.csproj.GenerateResource.Cache
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\obj\Debug\PerspectiveGeometryPlot.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\bin\Debug\Logic.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\bin\Debug\Logic.pdb
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\bin\Debug\MathNet.Numerics.dll
+c:\Users\1\documents\visual studio 2015\Projects\KG\PerspectiveGeometryPlot\bin\Debug\MathNet.Numerics.xml
