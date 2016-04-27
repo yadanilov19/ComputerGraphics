@@ -16,10 +16,11 @@ namespace Logic
         {
             List<Point2D> result;
             CheckC(C);
+            InspactionAngle(C, Points.First(x => x.Name == "T"));
+
             Calculate(H,W, C,Points, CreateRz(C) * CreateRx(C) * CreateMx() * CreateCz(C) * CreatePz() * CreateT(H,W), out result);
 
             OutFromDislay(result.First(x => x.Name == "T"), H, W);
-            InspactionAngle(C, Points.First(x => x.Name == "T"));
             return result;
         }
 
@@ -54,7 +55,8 @@ namespace Logic
 
         private static void InspactionAngle(Point4D c, Point4D t)
         {
-            if ((c.X * (t.X - c.X) + c.Y * (t.Y - c.Y) + c.Z * (t.Z - c.Z))/ Math.Sqrt(c.X * c.X + c.Y * c.Y + c.Z * c.Z) * Math.Sqrt(Math.Pow(t.X - c.X, 2) + Math.Pow(t.Y - c.Y, 2) + Math.Pow(t.Z - c.Z, 2)) <= 0)
+            var T = (-c.X * (t.X - c.X) -c.Y * (t.Y - t.X) -c.Z * (t.Z - c.Z));
+            if (T <= 0)
                 throw new Exception("Проецирующие лучи пересекают проецирующую плоскость");
         }
 

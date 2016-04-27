@@ -19,3 +19,10 @@ C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\MathNet.Numerics.
 C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.dll
 C:\Users\user\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.pdb
+C:\Users\1\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\Logic.dll
+C:\Users\1\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\Logic.pdb
+C:\Users\1\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\MathNet.Numerics.dll
+C:\Users\1\Source\Repos\ComputerGraphics\KG\Logic\bin\Debug\MathNet.Numerics.xml
+C:\Users\1\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\1\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.dll
+C:\Users\1\Source\Repos\ComputerGraphics\KG\Logic\obj\Debug\Logic.pdb
