@@ -10,7 +10,6 @@ namespace Logic
 {
     public static class CreateMapPerspetiveGeometryPlot
     {
-        
         static int n = 4; //размерность матриц
         public static List<Points.Point2D> CentralProjection(double H, double W, Point4D C, List<Points.Point4D> Points)
         {
