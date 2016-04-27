@@ -98,7 +98,6 @@ namespace KG
         {
             c.W = 0;
             Input();
-
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
