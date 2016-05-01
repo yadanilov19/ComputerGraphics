@@ -15,6 +15,7 @@ namespace Logic
         {
             List<Point2D> result;
             CheckC(C);
+            Equals_T_and_C(C, Points.First(x => x.Name == "T"));
             InspactionAngle(C, Points.First(x => x.Name == "T"));
 
             Calculate(H,W, C,Points, CreateRz(C) * CreateRx(C) * CreateMx() * CreateCz(C) * CreatePz() * CreateT(H,W), out result);
@@ -26,7 +27,6 @@ namespace Logic
         private static void Calculate(double H, double W, Point4D C, List<Point4D> Points,Matrix<Double> A,  out List<Point2D> result)
         {
             var t = Points.First(x => x.Name == "T");//точка пространства
-            Equals_T_and_C(C, t);
 
             result = new List<Point2D>();
 
