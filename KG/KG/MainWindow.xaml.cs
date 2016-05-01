@@ -169,6 +169,7 @@ namespace KG
                     PerspectivePlot.Clear();
                     ComplexPlot.Clear();
                     PerspectivePlot.ShowMessage(e.Message);
+                    GarbageColllect();
                 }
 
                 coordinatesComplex = CreateMapComplexPlot.getPointsOnWindow(
@@ -180,7 +181,17 @@ namespace KG
 
                 ComplexPlot.DrawComplex(coordinatesComplex);
                 RefreshPointsLabels();
+
+                GarbageColllect();
             }
+        }
+
+        void GarbageColllect()
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+            
+            GC.Collect();
         }
     }
 }
