@@ -66,7 +66,7 @@ namespace Logic
         }
 
 
-        public static List<Points.Point2D> OrtgProjection(double H, double W, Point4D C, List<Points.Point4D> Points)
+        public static List<Points.Point2D> OrtProjection(double H, double W, Point4D C, List<Points.Point4D> Points)
         {
             List<Point2D> result;
             CheckC(C);

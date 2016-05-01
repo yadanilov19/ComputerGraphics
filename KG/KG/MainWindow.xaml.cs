@@ -152,7 +152,7 @@ namespace KG
                     }
                     else
                     {
-                        coordinates = Logic.CreateMapPerspetiveGeometryPlot.OrtgProjection(
+                        coordinates = Logic.CreateMapPerspetiveGeometryPlot.OrtProjection(
                                PerspectivePlot.ActualHeight,
                                PerspectivePlot.ActualWidth,
                                c,
