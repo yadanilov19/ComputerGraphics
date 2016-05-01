@@ -15,7 +15,6 @@ namespace Logic.Points
     {
         double _W  = 1;
         Matrix<double> Vector;
-        string name;
         public double W
         {
             get
