@@ -54,8 +54,8 @@ namespace Logic
 
         private static void InspactionAngle(Point4D c, Point4D t)
         {
-            var T = (-c.X * (t.X - c.X) -c.Y * (t.Y - t.X) -c.Z * (t.Z - c.Z));
-            if (T <= 0)
+            var T = c.X * (t.X - c.X) + c.Y * (t.Y - c.Y) + c.Z * (t.Z - c.Z);
+            if (T >= 0)
                 throw new Exception("Проецирующие лучи пересекают проецирующую плоскость");
         }
 
