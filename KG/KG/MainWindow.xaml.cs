@@ -172,7 +172,7 @@ namespace KG
                     GarbageColllect();
                 }
 
-                coordinatesComplex = CreateMapComplexPlot.getPointsOnWindow(
+                coordinatesComplex = CreateMapComplexPlot.CreateMapComplex(
                            PerspectivePlot.ActualHeight,
                            PerspectivePlot.ActualWidth,
                            new List<Logic.Points._Point>() { c, t }

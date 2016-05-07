@@ -15,7 +15,7 @@ namespace Logic
         /// <param name="W">Ширина области чертежа</param>
         /// <param name="Points">Точки пространства, которые нужно отобразить на комплексном чертеже</param>
         /// <returns></returns>
-        public static List<List<Points.Point2D>> getPointsOnWindow(double H, double W, List<Points._Point> Points)
+        public static List<List<Points.Point2D>> CreateMapComplex(double H, double W, List<Points._Point> Points)
         {
             List<List<Points.Point2D>> result = new List<List<Logic.Points.Point2D>>()
             {
